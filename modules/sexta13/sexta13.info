@@ -1,0 +1,6 @@
+name = Sexta-feira Base
+description = Módulo Básico do sistema
+core = 6.x
+version = "6.x"
+project = "sexta13"
+package = Other

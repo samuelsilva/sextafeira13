@@ -7,6 +7,19 @@ engine = phptemplate
 stylesheets[all][] = style.css
 stylesheets[print][] = print.css
 
+
+
+
+
+regions[left] = Barra lateral esquerda
+regions[right] = Barra lateral direita
+regions[content] = Conteúdo
+regions[content_home] = Conteudo Home
+regions[header] = Cabeçalho
+regions[footer] = Rodapé
+
+;regions[conteudo_home] = Conteudo Home
+
 ; Information added by drupal.org packaging script on 2008-08-14
 project = "drupal"
 datestamp = "1218672610"

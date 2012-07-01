@@ -53,11 +53,14 @@
 <div class="bodyr">
   <?php endif; ?>
   <div class="body">
-    <?php if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul>'; endif; ?>
-    <?php if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
-    <?php if ($show_messages && $messages): print $messages; endif; ?>
-    <?php if ($title): print '<h2'. ($tabs ? ' class="with-tabs"' : '') .'>'. $title .'</h2>'; endif; ?>
-    <?php print $content ?> </div>
+    <?php //if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul>'; endif; ?>
+    <?php //if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
+    <?php //if ($show_messages && $messages): print $messages; endif; ?>
+    <?php //if ($title): print '<h2'. ($tabs ? ' class="with-tabs"' : '') .'>'. $title .'</h2>'; endif; ?>
+    <div class="produto-holder">
+		<?php print $content_home ?> 
+    </div>
+  </div>
   <?php if ($right): ?>
   <div class="sidebar"> <?php print $left; ?><?php print $right; ?> </div>
 </div>
